@@ -1,0 +1,2 @@
+g++ -std=c++11 -g test*.cpp ../lib/neuralnetwork.a /usr/local/lib/matrix/matrix.a -o run_tests.exe -I../inc -I/usr/local/inc
+./run_tests.exe
